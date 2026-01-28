@@ -25,25 +25,25 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 
-player_img = pygame.image.load('assets/player.gif')
+player_img = pygame.image.load('pygame/player.gif')
 player_img = pygame.transform.scale(player_img, (24, 24))
 
-enemy_img = pygame.image.load('assets/enemy.gif')
+enemy_img = pygame.image.load('pygame/enemy.gif')
 enemy_img = pygame.transform.scale(enemy_img, (24, 24))
 
-healer_img = pygame.image.load('assets/healer.gif')
+healer_img = pygame.image.load('pygame/healer.gif')
 healer_img = pygame.transform.scale(healer_img, (24, 24))
 
-defender_img = pygame.image.load('assets/defender.gif')
+defender_img = pygame.image.load('pygame/defender.gif')
 defender_img = pygame.transform.scale(defender_img, (24, 24))
 
-win_img = pygame.image.load('assets/win.gif')
+win_img = pygame.image.load('pygame/win.gif')
 win_img = pygame.transform.scale(win_img, (24, 24))
 
-ver_wall_img = pygame.image.load('assets/ver_wall.gif')
+ver_wall_img = pygame.image.load('pygame/ver_wall.gif')
 ver_wall_img = pygame.transform.scale(ver_wall_img, (20, 100))
 
-hor_wall_img = pygame.image.load('assets/hor_wall.gif')
+hor_wall_img = pygame.image.load('pygame/hor_wall.gif')
 hor_wall_img = pygame.transform.scale(hor_wall_img, (100, 20))
 
 # Sprite classes
@@ -662,16 +662,14 @@ while True:
         game_state.time_elapsed += 1
 
     # Draw everything
-    colors = game_state.get_level_colors()
-    screen.fill(colors['bg'])
+    screen.fill(WHITE)
     
     # Draw walls with camera offset
     for wall in walls:
         screen_x = wall.rect.x - camera_x
         screen_y = wall.rect.y - camera_y
         if -100 < screen_x < SCREEN_WIDTH + 100 and -100 < screen_y < SCREEN_HEIGHT + 100:
-            tinted_wall = tint_image(wall.image, colors['primary'])
-            screen.blit(tinted_wall, (screen_x, screen_y))
+            screen.blit(wall.image, (screen_x, screen_y))
     
     # Draw power-ups with camera offset
     for pu in game_state.power_ups:
@@ -687,8 +685,7 @@ while True:
         screen_x = enemy.rect.x - camera_x
         screen_y = enemy.rect.y - camera_y
         if -50 < screen_x < SCREEN_WIDTH + 50 and -50 < screen_y < SCREEN_HEIGHT + 50:
-            tinted_enemy = tint_image(enemy.image, colors['secondary'])
-            screen.blit(tinted_enemy, (screen_x, screen_y))
+            screen.blit(enemy.image, (screen_x, screen_y))
     
     # Draw allies with camera offset
     for ally in game_state.allies:
@@ -708,8 +705,7 @@ while True:
             # Flash effect when invincible
             pass
         else:
-            tinted_player = tint_image(player.image, colors['primary'])
-            screen.blit(tinted_player, (screen_x, screen_y))
+            screen.blit(player.image, (screen_x, screen_y))
 
     draw_ui()
     draw_end_screen()
