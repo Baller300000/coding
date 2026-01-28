@@ -25,25 +25,25 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 
-player_img = pygame.image.load('player.gif')
+player_img = pygame.image.load('assets/player.gif')
 player_img = pygame.transform.scale(player_img, (24, 24))
 
-enemy_img = pygame.image.load('enemy.gif')
+enemy_img = pygame.image.load('assets/enemy.gif')
 enemy_img = pygame.transform.scale(enemy_img, (24, 24))
 
-healer_img = pygame.image.load('healer.gif')
+healer_img = pygame.image.load('assets/healer.gif')
 healer_img = pygame.transform.scale(healer_img, (24, 24))
 
-defender_img = pygame.image.load('defender.gif')
+defender_img = pygame.image.load('assets/defender.gif')
 defender_img = pygame.transform.scale(defender_img, (24, 24))
 
-win_img = pygame.image.load('win.gif')
+win_img = pygame.image.load('assets/win.gif')
 win_img = pygame.transform.scale(win_img, (24, 24))
 
-ver_wall_img = pygame.image.load('ver_wall.gif')
+ver_wall_img = pygame.image.load('assets/ver_wall.gif')
 ver_wall_img = pygame.transform.scale(ver_wall_img, (20, 100))
 
-hor_wall_img = pygame.image.load('hor_wall.gif')
+hor_wall_img = pygame.image.load('assets/hor_wall.gif')
 hor_wall_img = pygame.transform.scale(hor_wall_img, (100, 20))
 
 # Sprite classes
