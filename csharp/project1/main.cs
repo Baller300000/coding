@@ -39,7 +39,7 @@ class Magic8Ball
         Random random = new();
 
         Console.WriteLine("╔════════════════════════════════════╗");
-        Console.WriteLine("║        MAGIC 8 BALL ORACLE         ║");
+        Console.WriteLine("║        ANGRY 8 BALL IDIOT          ║");
         Console.WriteLine("╚════════════════════════════════════╝");
         Console.WriteLine();
 
@@ -57,14 +57,6 @@ class Magic8Ball
                 break;
             }
 
-            if (!input.EndsWith('?'))
-            {
-                Console.WriteLine("Please ask a question (ending with ?)");
-                Console.WriteLine();
-                continue;
-            }
-
-            // Shaking animation
             Console.WriteLine("\nThe Magic 8 Ball is thinking...");
             for (int i = 0; i < 5; i++)
             {
