@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\Magic8Ball.csproj",
+      "projectUniqueName": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\project1\\Magic8Ball.csproj",
       "projectName": "Magic8Ball",
-      "projectPath": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\Magic8Ball.csproj",
+      "projectPath": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\project1\\Magic8Ball.csproj",
       "packagesPath": "C:\\Users\\lvyss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\obj\\",
+      "outputPath": "C:\\Users\\lvyss\\OneDrive\\Υπολογιστής\\coding\\csharp\\project1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lvyss\\AppData\\Roaming\\NuGet\\NuGet.Config"
