@@ -11,25 +11,26 @@ class Magic8Ball
         "Without a doubt",
         "Yes definitely",
         "You may rely on it",
-        "As I see it, yes",
-        "Most likely",
-        "Outlook good",
-        "Yes",
-        "Signs point to yes",
+        "DO IT",
+        "FUCK YES",
+        "The council of retards will decide",
+        "FLOOR IT",
+        "HELL YEAH",
         
         // Non-committal answers (5)
-        "Reply hazy, try again",
-        "Ask again later",
-        "Better not tell you now",
-        "Cannot predict now",
-        "Concentrate and ask again",
+        "LET ME THINK IN FUCKING PEACE",
+        "FUCK IM SUPPOSED TO KNOW",
+        "NUH UH",
+        "SHUT UP",
+        "GO COMMIT DIE",
         
         // Negative answers (5)
-        "Don't count on it",
-        "My reply is no",
-        "My sources say no",
-        "Outlook not so good",
-        "Very doubtful"
+        "Don't count on MY FUCKING ASS",
+        "My reply is FUCK NO",
+        "do that shit, il end you",
+        "That would be FUCKING STUPID",
+        "FUCK NO",
+        "ABSOLUTELY FUCKING NOT"
     };
 
     static void Main()
