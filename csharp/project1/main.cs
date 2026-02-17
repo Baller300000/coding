@@ -5,7 +5,7 @@ class Magic8Ball
 {
     private static readonly List<string> Responses = new()
     {
-        // Positive answers (10)
+        // GOOD BOIS :3
         "do it and ill give you a cookie",
         "I dont care about details, FUCK YEAAHH",
         "sure bro why not",
@@ -17,20 +17,21 @@ class Magic8Ball
         "FLOOR IT",
         "HELL YEAH",
         
-        // Non-committal answers (5)
+        // IDK
         "LET ME THINK IN FUCKING PEACE",
         "FUCK IM SUPPOSED TO KNOW",
         "NUH UH",
         "SHUT UP",
         "GO COMMIT DIE",
         
-        // Negative answers (5)
+        // NOPE
         "Don't count on MY FUCKING ASS",
         "My reply is FUCK NO",
         "do that shit, il end you",
         "That would be FUCKING STUPID",
         "FUCK NO",
-        "ABSOLUTELY FUCKING NOT"
+        "ABSOLUTELY FUCKING NOT",
+        "DO THAT AND ILL TOUCH U"
     };
 
     static void Main()
