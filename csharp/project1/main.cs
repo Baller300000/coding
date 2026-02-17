@@ -6,14 +6,14 @@ class Magic8Ball
     private static readonly List<string> Responses = new()
     {
         // Positive answers (10)
-        "It is certain",
-        "It is decidedly so",
-        "Without a doubt",
-        "Yes definitely",
-        "You may rely on it",
+        "do it and ill give you a cookie",
+        "I dont care about details, FUCK YEAAHH",
+        "sure bro why not",
+        "BULLSHIT. Do it now",
+        "If you dont do it ill decapitate you",
         "DO IT",
         "FUCK YES",
-        "The council of retards will decide",
+        "The council of fuck yeah will decide",
         "FLOOR IT",
         "HELL YEAH",
         
