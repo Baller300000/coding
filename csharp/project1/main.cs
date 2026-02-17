@@ -53,7 +53,7 @@ class Magic8Ball
 
             if (input.Equals("quit", StringComparison.OrdinalIgnoreCase))
             {
-                Console.WriteLine("\nThanks for consulting the Magic 8 Ball! Goodbye!");
+                Console.WriteLine("\nFUCK OFF");
                 break;
             }
 
