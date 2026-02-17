@@ -45,16 +45,36 @@ class Magic8Ball
 
         while (true)
         {
-            Console.Write("Ask a yes-or-no question (or type 'quit' to exit): ");
+            Console.Write("Ask a yes-or-no question\n(or type '/quit' to exit): ");
             string? input = Console.ReadLine();
 
-            if (string.IsNullOrWhiteSpace(input))
-                continue;
-
-            if (input.Equals("quit", StringComparison.OrdinalIgnoreCase))
+            if (input.Equals("/quit", StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("\nFUCK OFF");
                 break;
+            }
+            // ----------
+            // this is a joke, dont take seriously!!!!
+            if (input.Equals("seig", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("heil", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("SEIG", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("HEIL", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("\nHEIL! (joking ofc)");
+                continue;
+            }
+            if (input.Equals("is it gay to like femboys?", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("is it gay to like femboys", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("\nU like them bc they look like women, then no, \nbut if u like theb bc of their personality then yes, mr weirdo");
+                continue;
+            }
+            // this is a joke, dont take seriously!!!!
+            // ----------
+            if (input.IsWhiteSpace() || string.IsNullOrEmpty(input))
+            {
+                Console.WriteLine("\nASK A QUESTION YOU FUCKING IDIOT");
+                continue;
             }
 
             Console.WriteLine("\nThe Magic 8 Ball is thinking...");
