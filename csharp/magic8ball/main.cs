@@ -58,6 +58,7 @@ class Magic8Ball
                 Console.WriteLine("\nHEIL! (joking ofc)\n");
                 continue;
             }
+            // this is a joke, dont take seriously!!!
             if (input.Equals("is it gay to like femboys?", StringComparison.OrdinalIgnoreCase)
             || input.Equals("is it gay to like femboys", StringComparison.OrdinalIgnoreCase)
             || input.Equals("Is it gay to like femboys", StringComparison.OrdinalIgnoreCase)
@@ -66,6 +67,7 @@ class Magic8Ball
                 Console.WriteLine("\nU like them bc they look like women, then no, \nbut if u like theb bc of their personality then yes, mr weirdo\n");
                 continue;
             }
+            // this is a joke, dont take seriously!!!
             if (input.Equals("deus vult", StringComparison.OrdinalIgnoreCase)
             || input.Equals("DEUS VULT", StringComparison.OrdinalIgnoreCase)
             || input.Equals("Deus Vult", StringComparison.OrdinalIgnoreCase)
