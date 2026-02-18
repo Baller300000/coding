@@ -18,7 +18,8 @@ class Magic8Ball
         "FUCK IM SUPPOSED TO KNOW",
         "SHUT UP",
         "GO COMMIT DIE",
-        
+        "DEUS VULT\nDEUS VULT\nDEUS VULT",
+
         // NOPE
         "My reply is FUCK NO",
         "That would be FUCKING STUPID",
@@ -64,6 +65,16 @@ class Magic8Ball
                 Console.WriteLine("\nU like them bc they look like women, then no, \nbut if u like theb bc of their personality then yes, mr weirdo\n");
                 continue;
             }
+            if (input.Equals("deus vult", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("DEUS VULT", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("Deus Vult", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("deus vult!", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("DEUS VULT!", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("Deus Vult!", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("\n DEUS VULT\n");
+                continue;
+            }
             // this is a joke, dont take seriously!!!!
             // --------------------
             if (input.IsWhiteSpace() || string.IsNullOrEmpty(input))
@@ -72,7 +83,7 @@ class Magic8Ball
                 continue;
             }
 
-            Console.WriteLine("\nThe Magic 8 Ball is thinking...");
+            Console.WriteLine("\nTHE IDIOT IS THINKING...");
             Console.WriteLine();
             // Get random response
             string response = Responses[random.Next(Responses.Count)];
