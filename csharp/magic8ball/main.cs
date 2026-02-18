@@ -49,7 +49,7 @@ class Magic8Ball
                 break;
             }
             // --------------------
-            // this is a joke, dont take seriously!!!!
+            // this is a joke, dont take seriously!!!
             if (input.Equals("seig", StringComparison.OrdinalIgnoreCase)
             || input.Equals("heil", StringComparison.OrdinalIgnoreCase)
             || input.Equals("SEIG", StringComparison.OrdinalIgnoreCase)
@@ -76,7 +76,7 @@ class Magic8Ball
                 Console.WriteLine("\n DEUS VULT\n");
                 continue;
             }
-            // this is a joke, dont take seriously!!!!
+            // this is a joke, dont take seriously!!!
             // --------------------
             if (input.IsWhiteSpace() || string.IsNullOrEmpty(input))
             {
