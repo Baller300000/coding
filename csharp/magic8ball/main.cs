@@ -68,12 +68,12 @@ class Magic8Ball
                 continue;
             }
             // this is a joke, dont take seriously!!!
-            if (input.Equals("deus vult", StringComparison.OrdinalIgnoreCase)
-            || input.Equals("DEUS VULT", StringComparison.OrdinalIgnoreCase)
-            || input.Equals("Deus Vult", StringComparison.OrdinalIgnoreCase)
-            || input.Equals("deus vult!", StringComparison.OrdinalIgnoreCase)
-            || input.Equals("DEUS VULT!", StringComparison.OrdinalIgnoreCase)
-            || input.Equals("Deus Vult!", StringComparison.OrdinalIgnoreCase))
+            if (input.Equals("\ndeus vult", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("\nDEUS VULT", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("\nDeus Vult", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("\ndeus vult!", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("\nDEUS VULT!", StringComparison.OrdinalIgnoreCase)
+            || input.Equals("\nDeus Vult!", StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("\n DEUS VULT\n");
                 continue;
