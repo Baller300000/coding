@@ -39,6 +39,7 @@ class Magic8Ball
 
         while (true)
         {
+            Console.Write("DEUS VULT");
             Console.Write("Ask a yes-or-no question\n(or type '/quit' to exit): ");
             string? input = Console.ReadLine();
 
