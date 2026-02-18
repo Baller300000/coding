@@ -32,9 +32,9 @@ class Magic8Ball
     {
         Random random = new();
 
-        Console.WriteLine("╔════════════════════════════════════╗");
-        Console.WriteLine("║        ANGRY 8 BALL IDIOT          ║");
-        Console.WriteLine("╚════════════════════════════════════╝");
+        Console.WriteLine("╔═══════════════════════════════════╗");
+        Console.WriteLine("║        ANGRY 8 BALL IDIOT         ║");
+        Console.WriteLine("╚═══════════════════════════════════╝");
         Console.WriteLine();
 
         while (true)
