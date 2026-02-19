@@ -144,7 +144,7 @@ class Magic8Ball
                 continue;
             }
 
-            Console.WriteLine("\nTHE IDIOT IS THINKING...");
+            Console.WriteLine("\nTalk to me... (I have nothing to say back tho)\n");
             Console.WriteLine();
         }
     }
